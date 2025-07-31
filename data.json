@@ -1,0 +1,68 @@
+{
+  "articles": [
+    {
+      "id": "vesicula",
+      "title": "Vesícula",
+      "description": "Variaciones anatómicas del vesícula y su importancia clínica.",
+      "sections": [
+        {
+          "id": "Clasificación de Huang del conducto hepático izquierdo",
+          "title": "Clasificación de Huang del conducto hepático izquierdo",
+          "content": "La anatomía del conducto hepático izquierdo (CHI), según la clasificación de Huang, se divide según la inserción de los segmentos hepáticos II-IV. Segmentos hepáticos que drenan en el conducto: I, II, III, IV, V, VI, VII y VIII."
+        },
+        {
+          "id": "b1",
+          "title": "1. B1",
+          "content": "",
+          "image": "b1.jpeg"
+        },
+        {
+          "id": "b2",
+          "title": "2. B2",
+          "content": "",
+          "image": "b2.jpeg"
+        },
+        {
+          "id": "b3",
+          "title": "3. B3",
+          "content": "",
+          "image": "b3.jpeg"
+        },
+        {
+          "id": "b4",
+          "title": "4. B4",
+          "content": "",
+          "image": "b4.jpeg"
+        },
+        {
+          "id": "b5",
+          "title": "5. B5",
+          "content": "",
+          "image": "b5.jpeg"
+        },
+        {
+          "id": "b6",
+          "title": "6. B6",
+          "content": "",
+          "image": "b6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "trabajo_en_proceso",
+      "title": "Trabajando para mejorar",
+      "description": "Estamos estudiando para tener más informacion a tu alcance.",
+      "sections": [
+        {
+          "id": "Proximamente",
+          "title": "Estamos estudiando para ti",
+          "content": "",
+          "items": [
+            "..."
+          ],
+          "image": "Investigando.gif"
+        }
+      ]
+    }
+  ]
+}
