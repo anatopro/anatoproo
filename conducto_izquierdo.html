@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes - Viscerum Variata</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="conducto_derecho.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="assets/Logo.png" alt="Logo">
+            </div>
+            <p>Galería de Imágenes Anatómicas</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="conducto_derecho.html" >Conducto Derecho</a></li>
+                <li><a href="conducto_izquierdo.html" class="active" >Conducto Izquierdo</a></li>
+                <li><a href="casos_clinicos.html" >Casos Clínicos</a></li>
+                <li><a href="bibliografia.html" >Bibliografía</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<main class="container">
+    <section>
+        <h2>Conducto Izquierdo</h2>            
+        <div>
+
+            <!-- Caso B1 -->
+            <figure class="variantizq">
+                <img src="assets/ci_B1.webp" alt="Variante B1 - Conducto Izquierdo">
+                <figcaption>
+                    <strong>B1:</strong> El segmento IV se conecta con el conducto hepático izquierdo.
+                </figcaption>
+            </figure>
+
+            <!-- Caso B2 -->
+            <figure class="variantizq">
+                <img src="assets/ci_B2.webp" alt="Variante B2 - Conducto Izquierdo">
+                <figcaption>
+                    <strong>B2:</strong> El segmento IV se conecta con el conducto hepático común, separado de los segmentos II y III
+                </figcaption>
+            </figure>
+
+            <!-- Caso B3 -->
+            <figure class="variantizq">
+                <img src="assets/ci_B3.webp" alt="Variante B3 - Conducto Izquierdo">
+                <figcaption>
+                    <strong>B3:</strong> El segmento IV se conecta con el conducto hepático anterior derecho.
+                </figcaption>
+            </figure>
+
+            <!-- Caso B4 -->
+            <figure class="variantizq">
+                <img src="assets/ci_B4.webp" alt="Variante B4 - Conducto Izquierdo">
+                <figcaption>
+                    <strong>B4:</strong> El segmento IV se conecta con el conducto hepático común.
+                </figcaption>
+            </figure>
+
+            <!-- Caso B5 -->
+            <figure class="variantizq">
+                <img src="assets/ci_B5.webp" alt="Variante B5 - Conducto Izquierdo">
+                <figcaption>
+                    <strong>B5:</strong> El segmento IV se conecta al segmento II o a otros segmentos.
+                </figcaption>
+            </figure>
+
+            <!-- Caso B6 -->
+            <figure class="variantizq">
+                <img src="assets/ci_B6.webp" alt="Variante B6 - Conducto Izquierdo">
+            </figure>
+
+        </div>
+    </section>
+</main>
+   
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Anatopro - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- Botón scroll -->
+    <button id="btn-volver-arriba" title="Volver arriba">↑</button>
+
+    <!-- Modal para imágenes grandes -->
+    <div id="image-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div class="modal-caption" id="modal-caption"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>
