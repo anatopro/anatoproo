@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Derecho</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="conducto_derecho.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="assets/Logo.png" alt="Logo">
+            </div>
+            <p>Galería de Imágenes Anatómicas</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="conducto_derecho.html" class="active">Conducto Derecho</a></li>
+                <li><a href="conducto_izquierdo.html" >Conducto Izquierdo</a></li>
+                <li><a href="casos_clinicos.html" >Casos Clínicos</a></li>
+                <li><a href="bibliografia.html" >Bibliografía</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<main class="container">
+    <section>
+        <h2>Conducto Derecho</h2>            
+        <div>
+            <p>
+                RAHD: conducto hepático anterior derecho
+                <br>
+                RPHD: conducto hepático posterior derecho
+                <br>
+                LHD: conducto hepático izquierdo
+            </p>
+            <!-- Caso A1 -->
+            <figure class="variant">
+                <img src="assets/cd_A1.webp" alt="Variante A1 - Conducto Derecho">
+                <figcaption>
+                    <strong>A1:</strong> El conducto hepático posterior derecho y el conducto hepático anterior derecho se unen para formar el conducto hepático derecho (RHD). Esta variación representa el 60,44% de los casos.
+                </figcaption>
+            </figure>
+
+            <!-- Caso A2 -->
+            <figure class="variant">
+                <img src="assets/cd_A2.webp" alt="Variante A2 - Conducto Derecho">
+                <figcaption>
+                    <strong>A2:</strong> El conducto hepático derecho está ausente. El conducto hepático posterior derecho, el conducto hepático anterior derecho y el conducto hepático izquierdo se unen para formar el conducto hepático común. Esta variación representa el 11,76% de los casos.
+                </figcaption>
+            </figure>
+
+            <!-- Caso A3 -->
+            <figure class="variant">
+                <img src="assets/cd_A3.webp" alt="Variante A3 - Conducto Derecho">
+                <figcaption>
+                    <strong>A3:</strong> El conducto hepático posterior derecho o el conducto hepático anterior derecho se conecta directamente con el conducto hepático izquierdo. Representan el 11,73% del total de casos.
+                </figcaption>
+            </figure>
+
+            <!-- Caso A4 -->
+            <figure class="variant">
+                <img src="assets/cd_A4.webp" alt="Variante A4 - Conducto Derecho">
+                <figcaption>
+                    <strong>A4:</strong> El conducto hepático posterior derecho o el conducto hepático anterior derecho se conecta directamente con el conducto hepático común. Esta variación representa el 5,47% de los casos.
+                </figcaption>
+            </figure>
+
+            <!-- Caso A5 -->
+            <figure class="variant">
+                <img src="assets/cd_A5.webp" alt="Variante A5 - Conducto Derecho">
+                <figcaption>
+                    <strong>A5:</strong> El conducto hepático posterior derecho se comunica con el conducto cístico o con su periferia de forma aberrante y otros (como la unión del conducto accesorio al conducto hepático común y al conducto hepático derecho). Esta variación representa el 0.26% de los casos.
+                </figcaption>
+            </figure>
+
+        </div>
+    </section>
+</main>
+
+   
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Anatopro - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- Botón scroll -->
+    <button id="btn-volver-arriba" title="Volver arriba">↑</button>
+
+    <!-- Modal para imágenes grandes -->
+    <div id="image-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div class="modal-caption" id="modal-caption"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <!--<script src="gallery.js"></script> -->
+</body>
+</html>

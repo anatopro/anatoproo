@@ -1,0 +1,67 @@
+/* Centrar galería de variantes */
+main.container section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* centra horizontalmente */
+  gap: 40px;            /* espacio entre variantes */
+}
+
+/* Cada figura */
+.variant {
+  max-width: 900px;     /* ancho máximo por figura */
+  text-align: center;
+}
+.variantizq {
+  max-width: 900px;     /* ancho máximo por figura */
+  text-align: center;
+}
+
+/* Imagen */
+.variant img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.variantizq img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Texto */
+.variant figcaption {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Texto */
+.variantizq figcaption {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+
+.clinical-case {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 4px solid #666400;
+    background: #f9f9f9;
+    border-radius: 6px;
+    
+}
+
+.clinical-case p {
+    margin: 8px 0;
+    color: #444;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes - Viscerum Variata</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="conducto_derecho.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="assets/Logo.png" alt="Logo">
+            </div>
+            <p>Galería de Imágenes Anatómicas</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="conducto_derecho.html" >Conducto Derecho</a></li>
+                <li><a href="conducto_izquierdo.html"  >Conducto Izquierdo</a></li>
+                <li><a href="casos_clinicos.html" class="active">Casos Clínicos</a></li>
+                <li><a href="bibliografia.html" >Bibliografía</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<main class="container">
+    <section>
+        <h2>Casos clínicos</h2>
+
+        <!-- Caso 1 -->
+        <article class="clinical-case">
+            <p>
+                <strong>1.</strong> A una paciente de 42 años se le programa una colecistectomía laparoscópica por colelitiasis sintomática. Durante la misma, el cirujano observa tres conductos que desembocan directamente en el conducto hepático común: el conducto hepático anterior derecho, el posterior derecho y el conducto izquierdo.
+            </p>
+            <p>
+                <strong>Variación presente:</strong> Variante tipo A2
+            </p>
+            <p>
+                <strong>Importancia quirúrgica:</strong> En este caso si el cirujano hubiera asumido que la anatomía era típica, es decir, A1, podría confundir un conducto sectorial derecho con el cístico, provocando una lesión biliar grave.
+            </p>
+        </article>
+
+        <!-- Caso 2 -->
+        <article class="clinical-case">
+            <p>
+                <strong>2.</strong> Hombre de 56 años es candidato a un trasplante hepático como donante vivo de su hijo. Se le realiza una colangioresonancia donde se observa que el conducto hepático posterior derecho drena en el hepático izquierdo.
+            </p>
+            <p>
+                <strong>Variación presente:</strong> Variante tipo A3
+            </p>
+            <p>
+                <strong>Importancia quirúrgica:</strong> En el caso de un trasplante hepático derecho, esta variante obliga a realizar múltiples anastomosis biliares o una ductoplastia para unir los conductos, lo que provoca un incremento del tiempo quirúrgico.
+            </p>
+        </article>
+
+        <!-- Caso 3 -->
+        <article class="clinical-case">
+            <p>
+                <strong>3.</strong> Hombre de 63 años sometido a resección de metástasis hepáticas en segmento IV. Le realizan una colangiografía preoperatoria que muestra que el conducto del segmento IV drena directamente en el hepático común.
+            </p>
+            <p>
+                <strong>Variación presente:</strong> Variante tipo B2
+            </p>
+            <p>
+                <strong>Importancia quirúrgica:</strong> Si antes de la operación no se reconoce esta variante, durante la resección puede ligarse accidentalmente este conducto, provocando una fuga biliar postoperatoria.
+            </p>
+        </article>
+
+    </section>
+</main>
+
+   
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Anatopro - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- Botón scroll -->
+    <button id="btn-volver-arriba" title="Volver arriba">↑</button>
+
+    <!-- Modal para imágenes grandes -->
+    <div id="image-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div class="modal-caption" id="modal-caption"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>
